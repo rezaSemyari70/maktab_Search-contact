@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import TableBody from './TableBody';
+
 export default class Table extends Component {
     render() {
      return (
@@ -15,6 +17,7 @@ export default class Table extends Component {
                                     <th>Phone</th>
                                 </tr>
                             </thead>
+                            <TableBody/>
                         </table>
                     </div>
                 </div>
