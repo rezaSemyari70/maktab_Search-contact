@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+th , td{
+  text-align: center;
+}
+
+table{
+  margin-top: 50px !important;
+}
+
+.headerColor{
+  background: linear-gradient(to right , #D4DBF5, #7638C2) !important ;
+}
