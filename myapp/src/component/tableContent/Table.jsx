@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import TableRow from './TableRow';
-
 export default class Table extends Component {
 
 state = {
@@ -32,7 +31,7 @@ render() {
         return (
             <div className="container">
                 <div className="row justify-content-center mt-3">
-                    <input name={"search"} value={search} onChange={this.handleChange} />
+                    <input className="inputSearch" name={"search"} value={search} onChange={this.handleChange} placeholder="Search contact  by  Name  or  Phone number"/>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col">
